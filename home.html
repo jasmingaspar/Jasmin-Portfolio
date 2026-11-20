@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jasmin A. Gaspar | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <canvas id="confettiCanvas"></canvas>
+  <header>
+    <nav>
+      <div class="logo">🎀 Jasmin Gaspar</div>
+      <ul class="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#certificates">CERTIFICATES</a></li>
+        <li><a href="#hobbies">HOBBIES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <div class="menu-toggle">☰</div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h3>Hi, I'm <span>Jasmin A. Gaspar</span></h3>
+      <h1 class="big-title">BSIT<br>Student</h1>
+      <p class="hero-text">As a beginner in the world of technology, I am excited to learn new things, explore programming, and develop my skills in computer technology. I know that this journey will have challenges, but I am willing to learn, improve, and grow step by step. This is just the beginning of my journey as a future IT professional! 💻🎀</p>
+     
+      <div class="hero-buttons">
+        <a href="#about" class="btn">Get to know me </a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+
+   <div class="social-icons">
+      <a href="https://www.facebook.com/share/1EFUoCc8LX/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/min_kyutieee?hvrq=Mnlwc2w2ZzV0anMz" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@mnprttyx?_r=1&_t=ZS-9BYGIkhqNC1arget=" target="_blank"><i class="fab fa-tiktok"></i></a>
+</div>
+</div>
+
+<div class="hero-image">
+    <img src="jasmin.jpg" alt="Jasmin A. Gaspar">
+</div>
+  </section>
+
+  <section id="about" class="section">
+    <h2 class="section-title">About Me </h2>
+    <div class="about-wrapper">
+      <div class="about-photo">
+        <img src="profile.jpg" alt="Jasmin A. Gaspar" class="about-img">
+      </div>
+      <div class="about-content">
+        <p>I am a first-year Bachelor of Science in Information Technology (BSIT) student who is continuously learning and exploring the world of technology. As a beginner in this field, my college journey has taught me many new things and given me opportunities to develop my knowledge and skills.</p>
+        <p>In our Introduction to Computing course, I learned different practical skills and activities, such as creating object detection projects using Roboflow, making and testing Ethernet cables, installing operating systems, and designing websites using HTML and CSS. These activities helped me understand how technology works and how it can be applied in real-life situations.</p>
+        <p>Meanwhile, in our Introduction to Programming course, I experienced challenges, especially when learning how to write code, understand programming concepts, and solve errors. There were times when programming felt difficult and confusing, but through practice, patience, and determination, I gradually learned how to create programs and improve my coding skills.</p>
+        <p>Being a first-year IT student is not always easy, but every lesson and activity gives me a chance to learn something new. I believe that making mistakes is part of the learning process, and every challenge helps me become better.</p>
+        <p>I know that I still have a lot to learn, but I am excited to continue this journey, explore more about technology, enhance my skills, and prepare myself to become a successful IT professional in the future.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-content">
+      <p>I am a BS Information Technology student and still a beginner, but I am motivated to learn and improve. My current skills include:</p>
+      <ul class="skills-list">
+        <li>Programming using C# & C language</li>
+        <li>Basic HTML and CSS</li>
+        <li>Website designing</li>
+        <li>Roboflow object detection</li>
+        <li>Ethernet cable crimping and testing</li>
+        <li>Operating system installation</li>
+      </ul>
+      <p>Although I still have a lot to learn, I am willing to explore new technologies, practice my skills, and gain more experience. I believe that every challenge is an opportunity to improve and become a better future IT professional.</p>
+    </div>
+  </section>
+
+ <section id="certificates" class="section">
+  <h2 class="section-title">MILESTONES</h2>
+
+
+  <div class="cert-grid">
+    <!-- C# Card -->
+    <div class="cert-card">
+      <img src="csharp.png" alt="C# Certificate">
+      <span>CERTIFICATE</span>
+      <h3>C# CERTIFICATE</h3>
+      <p>Click to view</p>
+    </div>
+
+    <!-- C Language Card -->
+    <div class="cert-card">
+      <img src="clang.png" alt="C Language Certificate">
+      <span>CERTIFICATE</span>
+      <h3>C LANGUAGE CERTIFICATE</h3>
+      <p>Click to view</p>
+    </div>
+  </div>
+</section>
+
+ <section id="hobbies" class="section alt">
+  <h2 class="section-title">My Hobbies & Interests</h2>
+  <div class="hobbies-grid">
+    
+    <div class="hobby-card">
+      <div class="hobby-img">
+        <img src="music.png" alt="Listening to music">
+      </div>
+      <h3>🎧 Listening To Music</h3>
+      <p>It helps me relax and relieve stress.I enjoy listening to different kinds of songs, especially when I feel tired or bored. Music gives me comfort.</p>
+      <p class="click-text" onclick="openLightbox(this.closest('.hobby-card').querySelector('img').src)">Click here</p>
+    </div>
+
+    <div class="hobby-card">
+      <div class="hobby-img">
+        <img src="chess.jpg" alt="Chess">
+      </div>
+      <h3>♟️ Chess</h3>
+      <p>I love playing chess because it challenges my mind and improves my critical thinking.</p>
+      <p class="click-text" onclick="openLightbox(this.closest('.hobby-card').querySelector('img').src)">Click here</p>
+    </div>
+
+    <div class="hobby-card">
+      <div class="hobby-img">
+        <img src="k-drama.png" alt="Watching K-drama">
+      </div>
+      <h3>📺 Watching K-drama</h3>
+      <p>I enjoy their interesting stories, lovable characters, and emotional scenes. It helps me relax.</p>
+      <p class="click-text" onclick="openLightbox(this.closest('.hobby-card').querySelector('img').src)">Click here</p>
+    </div>
+
+    <div class="hobby-card">
+      <div class="hobby-img">
+        <img src="mobilelegends.jpg" alt="Online Gaming">
+      </div>
+      <h3>🎮 Online Gaming</h3>
+      <p>I like playing online games during my free time.</p>
+      <p class="click-text" onclick="openLightbox(this.closest('.hobby-card').querySelector('img').src)">Click here</p>
+    </div>
+
+    <div class="hobby-card">
+      <div class="hobby-img">
+        <img src="affiliate.jpg" alt="Tiktok & Shopee Affiliate">
+      </div>
+      <h3>📱 TikTok Affiliate</h3>
+      <p>I enjoy creating content, promoting products, and sharing honest product recommendations.</p>
+      <p class="click-text" onclick="openLightbox(this.closest('.hobby-card').querySelector('img').src)">Click here</p>
+    </div>
+
+  </div>
+</section>
+
+  </section>
+  <section id="contact" class="section">
+    <h2 class="section-title">Looking Forward To Connecting With You!</h2>
+    <p class="subtitle">Let’s connect!</p>
+    <div class="contact-box">
+      <p>I’m always happy to meet new people, share experiences, learn new things, and build friendships. I am open to new opportunities and exciting experiences.</p>
+      <a href="mailto:jasmingaspar3@gmail.com" class="btn">Send Email</a>
+    </div>
+  </section>
+
+  <footer>
+    <footer class="footer">
+  <div class="footer-left">
+    <p class="footer-title">My Portfolio</p>
+    <p>© 2026 Jasmin A. Gaspar. All rights reserved.</p>
+  </div>
+
+  <div class="footer-right">
+    <a href="terms.html">Terms & Conditions</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+</footer>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="modal-img" src="clang.png" alt="Certificate" style="width:100%; border-radius:12px; margin-bottom:15px;">
+    <h3 id="modal-title"></h3>
+  </div>
+</div>
+
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="close">&times;</span>
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
